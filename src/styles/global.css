@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Alatsi&family=Alef&family=Alegreya+Sans+SC&family=Allerta&family=Almarai&family=Assistant:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+button {
+  cursor: pointer;
+}
+
+:root {
+  font-size: 62.5%;    
+  --background-primary: #fff;
+  --background-button: #1D43CD;
+  --text: #1D43CD;
+  --alert: #FF725E;
+  --placeholder: #8C86FE;
+  --background-card: #E5E0FF;
+  --background-search: #222A76;
+}

@@ -1,0 +1,80 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo{
+  margin-top: 6rem;
+  width: 13%;
+  animation-name: opacity;
+  animation-duration: 2s;
+}
+
+@keyframes opacity {
+  from{
+    opacity: 0;
+  }
+  
+  to{
+    opacity: 1;
+  }
+}
+
+.welcome{
+  margin-top: 3rem;
+  width: 25%;
+  animation-name: opacity;
+  animation-duration: 2.5s;
+}
+
+.welcomeText{
+  margin-top: 2.6rem;
+  font-family: 'Almarai', sans-serif;
+  font-size: 2.2rem;
+  color: var(--text);
+
+  animation-name: opacity;
+  animation-duration: 3s;
+}
+
+.button{
+  margin-top: 2.5rem;
+  height: 4.5rem;
+  width: 25%;
+  border: 0;
+  border-radius: .8rem;
+  color: var(--background-primary);
+  background-color: var(--background-button);
+  font-size: 2rem;
+  line-height: 29px;
+  letter-spacing: .2rem;
+  font-family: 'Almarai', sans-serif;
+  font-weight: 700;
+
+  animation-name: opacity;
+  animation-duration: 3.5s;
+}
+
+@media(max-width: 760px) {
+  .container{
+    height: 100vh;
+  }
+
+  .logo{
+    width: 13rem;
+  }
+
+  .welcome{
+    width: 20rem;
+  }
+  
+  .welcomeText{
+    font-family: 'Almarai', sans-serif;
+    font-size: 2rem;
+  }
+
+  .button{
+    width: 20rem;
+  }
+}

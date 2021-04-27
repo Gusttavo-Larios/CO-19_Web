@@ -1,0 +1,112 @@
+.containerHome{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  animation-name: opacity;
+  animation-duration: 2s;
+}
+
+@keyframes opacity {
+  from{
+    opacity: 0;
+  }
+  
+  to{
+    opacity: 1;
+  }
+}
+
+.logoHome{
+  margin-top: 4rem;
+  width: 15%;
+}
+
+.boxSearch{
+  width: 35%;
+  height: 4rem;
+  display: flex;
+  flex-direction: row;
+  margin-top: 5rem;
+  
+  animation-name: opacity;
+  animation-duration: 2.5s;
+}
+
+.inputHome{
+  width: 88%;
+  height: 100%;
+  border: 0;
+  background-color: var(--background-card);
+  padding-left: 1rem;
+  border-top-left-radius: .8rem;
+  border-Bottom-left-radius: .8rem;
+  font-size: 1.8rem;
+  color: var(--placeholder);
+  font-family: 'Alef', sans-serif;
+  transition: all .2s;
+}
+
+.inputHome::placeholder{
+  color: var(--placeholder)
+}
+
+.inputHome:focus{
+  box-shadow: 0 1px 10px var(--background-search);
+}
+
+.buttonSearch{
+  width: 12%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-right-radius: .8rem;
+  border-Bottom-right-radius: .8rem;
+  border: 0;
+  background-color: var(--background-search);
+}
+
+.searchHome{
+  width: 2.6rem;
+}
+
+.overlay{
+  background: rgba(242, 243, 245, 0.8);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+@media(max-width: 760px) {
+  .container{
+    height: 100vh;
+  }
+
+  .logoHome{
+    width: 13rem;
+  }
+
+  .boxSearch{
+    width: 80%;
+  }
+
+  .inputHome{
+    width: 80%;
+  }
+
+  .buttonSearch{
+    width: 20%;
+  }
+  
+  .searchHome{
+    width: 2.4rem;
+  }
+
+}
