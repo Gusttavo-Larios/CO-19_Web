@@ -23,7 +23,6 @@ Aplicação ReactJS que exibe o número de casos, casos suspeitos e mortos por C
 As seguintes ferramentas estão sendo usadas na construção do projeto:
 
 - [React Native](https://pt-br.reactjs.org/)
-- [Expo](https://expo.io/)
 - [JavaScript](https://www.javascript.com/)
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#licensa)
